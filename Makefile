@@ -2,7 +2,7 @@ CC=clang++
 CFLAGS=-c -Wall -std=c++11 -stdlib=libc++
 LDFLAGS=
 
-SRCS=main.cpp grid.cpp montecarlo.cpp
+SRCS=main.cpp xorshift.cpp grid.cpp montecarlo.cpp
 OBJS=$(SRCS:.cpp=.o)
 EXECUTABLE=2048
 

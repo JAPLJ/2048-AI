@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
         continue;
       }
 
-      double eval = step_score + MonteCarlo::MonteCarloEval(temp, 1000);
+      double eval = step_score + MonteCarlo::MonteCarloEval(temp, 2000);
       if (best < eval) {
         best = eval;
         next_move = d;

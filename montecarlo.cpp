@@ -8,6 +8,7 @@ using XorShift::Random;
 namespace MonteCarlo {
 
 int Playout(Grid g) {
+  g.AddRandomTile();
   while (true) {
     int dirs[4] = {0, 1, 2, 3};
     for (int i = 3; i > 0; --i) {
